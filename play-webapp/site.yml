@@ -1,7 +1,7 @@
 ---
 # Main Play webapp deployment playbook
 
-- hosts: webapp_server
+- hosts: client1
   user: root
   roles:
      - role: common
