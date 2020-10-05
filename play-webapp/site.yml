@@ -2,7 +2,7 @@
 # Main Play webapp deployment playbook
 
 - hosts: client1
-  user: root
+  user: ansible
   roles:
      - role: common
      - role: webapp
